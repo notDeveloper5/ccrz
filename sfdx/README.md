@@ -36,10 +36,6 @@ Run the command that creates the scratch org and specify the username for the ad
 sfdx force:org:create -f config/project-scratch-def.json username=<YourScratchOrgUsernameInEmailFormat> -s -d <DurationInDays>
 ```
 
-Install B2B Commerce for Visualforce Manage Package:
-
-https://help.salesforce.com/s/articleView?id=sf.b2b_commerce_install_urls.htm&type=5
-
 To open the new org:
 ```
 sfdx force:org:open
@@ -48,6 +44,9 @@ Note: if that fails, you might need to first set that new scratch org as your de
 ```
 sfdx force:config:set defaultusername=<YourScratchOrgUsernameInEmailFormat>
 ```
+
+Install B2B Commerce for Visualforce Manage Package:
+https://help.salesforce.com/s/articleView?id=sf.b2b_commerce_install_urls.htm&type=5
 
 Notice that the existing settings in the ```project-scratch-def.json``` file will enable all the necessary licenses and org perms and prefs required for Lightning B2B. If the scratch org creation is successful you should not need to modify any org perms or prefs. This is only available for the scratch orgs though, and will not work for sandboxes or other environments. For those orgs, follow the documentation about the licenses and org preferences that need to be enabled for B2B on Lightning.
 
