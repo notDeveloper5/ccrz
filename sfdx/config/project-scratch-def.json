@@ -1,0 +1,16 @@
+{
+  "orgName": "CCRZ B2B Company",
+  "edition": "Professional",
+  "features": ["Communities","EnableSetPasswordInApi, "PersonAccounts", "PlatformCache", "LiveAgent"],
+  "settings": { 
+  "lightningExperienceSettings": {
+        "enableS1DesktopEnabled": true
+    },
+    "experienceBundleSettings": {
+      "enableExperienceBundleMetadata": true
+    },
+    "communitiesSettings": {
+      "enableNetworksEnabled": true
+    }
+  }
+}
