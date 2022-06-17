@@ -1,0 +1,12 @@
+{
+    "Username": "sysadminCCRZ@scratchorg.com",
+    "LastName": "sfdx",
+    "Email": "albert.tung@salesforce.com",
+    "Alias": "CCRZscratchorgAdmin",
+    "TimeZoneSidKey": "America/Indianapolis",
+    "LocaleSidKey": "en_US",
+    "EmailEncodingKey": "UTF-8",
+    "LanguageLocaleKey": "en_US",
+    "profileName": "System Administrator",
+    "generatePassword": true
+}
